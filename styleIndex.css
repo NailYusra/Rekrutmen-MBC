@@ -1,0 +1,378 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------- PAGE 1 START --------------------- */
+.content1-container {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #6184bb, #536eac, #49589b, #43418a, #3e2a76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-content1 {
+    height: 624;
+    width: 936;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.p-content1 {
+    color: white;
+    border: 3px solid;
+    border-image: linear-gradient(to right top, #da1e1e, #b97400, #8ea12d, #68bf81, #69d4ca) 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    top: 300;
+}
+
+.MBC-image {
+    height: 154,2%;
+    width: 109%;
+}
+
+.LOGO-image{
+    position: absolute;
+    /* transform: scale(1.5); */
+    top: -140;
+    right: 420;
+}
+
+.Home{
+    position: absolute;
+    top: 0;
+    left: 30;
+    margin: 30;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1.5px solid;
+    border-image: linear-gradient(to right top, #aca2ee, #7db4f9, #52c3f4, #4acde2, #69d4ca) 1;
+    text-decoration: none;
+}
+.Home:hover{
+    background-color: grey;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.Divisi{
+    position: absolute;
+    top: 5;
+    right: 30;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    align-self: flex-end;
+    color: white;
+    margin: 30;
+    border: 1.5px solid;
+    border-image: linear-gradient(to right top, #aca2ee, #7db4f9, #52c3f4, #4acde2, #69d4ca) 1;
+    text-decoration: none;
+}
+.Divisi:hover{
+    background-color: rgb(134, 100, 100);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.Contact{
+    position: absolute;
+    top: 55;
+    right: 30;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    align-self: flex-end;
+    color: white;
+    margin: 30;
+    border: 1.5px solid;
+    border-image: linear-gradient(to right top, #aca2ee, #7db4f9, #52c3f4, #4acde2, #69d4ca) 1;
+    text-decoration: none;
+}
+.Contact:hover{
+    background-color: rgb(134, 100, 100);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.Author{
+    position: absolute;
+    top: 105;
+    right: 30;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    align-self: flex-end;
+    color: white;
+    margin: 30;
+    border: 1.5px solid;
+    border-image: linear-gradient(to right top, #aca2ee, #7db4f9, #52c3f4, #4acde2, #69d4ca) 1;
+    text-decoration: none;
+}
+.Author:hover{
+    background-color: rgb(134, 100, 100);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+/* --------------------- PAGE 1 END --------------------- */
+
+/* --------------------- PAGE 2 START --------------------- */
+.Home2{
+    position: absolute;
+    top: 0;
+    left: 30;
+    margin: 30;
+    color: black;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1.5px solid;
+    border-image: linear-gradient(to right top, #aca2ee, #7db4f9, #52c3f4, #4acde2, #69d4ca) 1;
+    text-decoration: none;
+}
+.Home2:hover{
+    background-color: grey;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.Divisi2{
+    position: absolute;
+    top: 5;
+    right: 30;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    align-self: flex-end;
+    color: black;
+    margin: 30;
+    border: 1.5px solid;
+    border-image: linear-gradient(to right top, #aca2ee, #7db4f9, #52c3f4, #4acde2, #69d4ca) 1;
+    text-decoration: none;
+}
+.Divisi2:hover{
+    background-color: rgb(134, 100, 100);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.Contact2{
+    position: absolute;
+    top: 55;
+    right: 30;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    align-self: flex-end;
+    color: black;
+    margin: 30;
+    border: 1.5px solid;
+    border-image: linear-gradient(to right top, #aca2ee, #7db4f9, #52c3f4, #4acde2, #69d4ca) 1;
+    text-decoration: none;
+}
+.Contact2:hover{
+    background-color: rgb(134, 100, 100);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.Author2{
+    position: absolute;
+    top: 105;
+    right: 30;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    align-self: flex-end;
+    color: black;
+    margin: 30;
+    border: 1.5px solid;
+    border-image: linear-gradient(to right top, #aca2ee, #7db4f9, #52c3f4, #4acde2, #69d4ca) 1;
+    text-decoration: none;
+}
+.Author2:hover{
+    background-color: rgb(134, 100, 100);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.MBC-Logo{
+    position: absolute;
+    transform: scale(0.9);
+    top: -185;
+    right: 340;
+}
+
+.TU-Logo{
+    position: absolute;
+    transform: scale(0.06);
+    top: -1081;
+    right: 410; 
+}
+
+.a-content2{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.a-content3{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.a-content4{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.p2-contact{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    color: white;
+}
+
+.ul-content5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-CyberSec{
+    font-size: x-large;
+}
+.li-content5-1{
+    display: flex;
+    border: 6px solid #d1b5b5;
+    background-color: #f8f5f5;
+    justify-content:baseline;
+    align-items:baseline;
+    flex-direction: column;
+}
+.p-CyberSec{
+    font-size: large;
+}
+
+.text-BigData{
+    font-size: x-large;
+}
+.li-content5-2{
+    display: flex;
+    border: 6px solid #d1b5b5;
+    background-color: #f8f5f5;
+    justify-content:baseline;
+    align-items:baseline;
+    flex-direction: column;
+}
+.p-BigData{
+    font-size: large;
+}
+
+.text-GeographicalInformationSystem{
+    font-size: x-large;
+}
+.li-content5-3{
+    display: flex;
+    border: 6px solid #d1b5b5;
+    background-color: #f8f5f5;
+    justify-content:baseline;
+    align-items:baseline;
+    flex-direction: column;
+}
+.p-GeographicalInformationSystem{
+    font-size: large;
+}
+
+.Jam{
+    font-size: large;
+}
+
+.text-GameTechnology{
+    font-size: x-large;
+}
+.li-content5-4{
+    display: flex;
+    border: 6px solid #d1b5b5;
+    background-color: #f8f5f5;
+    justify-content:baseline;
+    align-items:baseline;
+    flex-direction: column;
+}
+.p-GameTechnology{
+    font-size: large;
+}
+
+.a-content8{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.FOOTER{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    color: white;
+}
+/* --------------------- PAGE 2 END --------------------- */
+
+/* --------------------- PAGE 3 START --------------------- */
+.content6-container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-01{
+    font-size: large;
+}
+
+.border-1{
+    border: 6px solid #d1b5b5;
+    background-color: #f8f5f5;
+    justify-content:baseline;
+    align-items:baseline;
+}
+/* --------------------- PAGE 3 END --------------------- */
+
+/* --------------------- PAGE 4 START --------------------- */
+.TentangUtama{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Tentang{
+    border: 6px solid #d1b5b5;
+    background-color: #f8f5f5;
+    justify-content:baseline;
+    align-items:baseline;
+}
+
+.upper{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.Gambar-Formal{
+    position: absolute;
+    transform: scale(0.625);
+    top: 210;
+    right: 350;
+}
+/* --------------------- PAGE 3 END --------------------- */
